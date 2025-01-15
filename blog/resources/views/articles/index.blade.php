@@ -7,6 +7,7 @@
 </head>
 <body>
     <ul>
+        <h2>Article Lists</h2>
        @foreach($articles as $article)
            <li>{{ $article["title"]}}</li>
        @endforeach
